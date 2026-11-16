@@ -7,7 +7,6 @@ import Experience from '@/components/sections/Experience';
 import Skills from '@/components/sections/Skills';
 import Education from '@/components/sections/Education';
 import Certifications from '@/components/sections/Certifications';
-import CvSection from '@/components/sections/CvSection';
 
 function App() {
   return (
@@ -21,7 +20,6 @@ function App() {
         <Education />
         <Skills />
         <Certifications />
-        <CvSection />
       </main>
       <Footer />
     </div>

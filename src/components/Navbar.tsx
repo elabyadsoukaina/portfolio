@@ -10,7 +10,6 @@ const navLinks = [
   { label: 'Formation', href: '#formation' },
   { label: 'Compétences', href: '#competences' },
   { label: 'Certifications', href: '#certifications' },
-  { label: 'CV', href: '#cv' },
 ];
 
 export default function Navbar() {

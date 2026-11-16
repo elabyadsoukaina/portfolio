@@ -1,4 +1,5 @@
 import { ArrowDown } from 'lucide-react';
+import { profile } from '@/data/portfolio';
 import useCvDownload from '@/hooks/useCvDownload';
 
 export default function Hero() {
