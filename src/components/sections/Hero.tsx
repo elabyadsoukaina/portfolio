@@ -1,10 +1,7 @@
 import { ArrowDown } from 'lucide-react';
 import { profile } from '@/data/portfolio';
-import useCvDownload from '@/hooks/useCvDownload';
 
 export default function Hero() {
-  const { download, isLoading } = useCvDownload();
-
   return (
     <section id="accueil" className="relative flex min-h-screen items-center overflow-hidden pt-24">
       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_top,rgba(16,185,129,0.12),transparent_60%)]" />
@@ -39,14 +36,6 @@ export default function Hero() {
             Voir mes projets
             <ArrowDown className="h-4 w-4" />
           </a>
-          <button
-            type="button"
-            onClick={download}
-            disabled={isLoading}
-            className="inline-flex items-center gap-2 rounded-lg border border-slate-700 px-6 py-3 font-semibold text-slate-100 transition hover:-translate-y-0.5 hover:border-emerald-400/60 hover:text-emerald-300 disabled:cursor-wait disabled:opacity-70"
-          >
-            Télécharger mon CV
-          </button>
         </div>
       </div>
     </section>
