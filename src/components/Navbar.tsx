@@ -5,8 +5,8 @@ import { profile } from '@/data/portfolio';
 const navLinks = [
   { label: 'Accueil', href: '#accueil' },
   { label: 'À propos', href: '#a-propos' },
-  { label: 'Projets', href: '#projets' },
   { label: 'Expérience', href: '#experience' },
+  { label: 'Projets', href: '#projets' },
   { label: 'Formation', href: '#formation' },
   { label: 'Compétences', href: '#competences' },
   { label: 'Certifications', href: '#certifications' },

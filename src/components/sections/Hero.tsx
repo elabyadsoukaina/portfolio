@@ -1,5 +1,4 @@
-import { ArrowDown, Download, Loader2 } from 'lucide-react';
-import { profile } from '@/data/portfolio';
+import { ArrowDown } from 'lucide-react';
 import useCvDownload from '@/hooks/useCvDownload';
 
 export default function Hero() {
@@ -45,7 +44,6 @@ export default function Hero() {
             disabled={isLoading}
             className="inline-flex items-center gap-2 rounded-lg border border-slate-700 px-6 py-3 font-semibold text-slate-100 transition hover:-translate-y-0.5 hover:border-emerald-400/60 hover:text-emerald-300 disabled:cursor-wait disabled:opacity-70"
           >
-            {isLoading ? <Loader2 className="h-4 w-4 animate-spin" /> : <Download className="h-4 w-4" />}
             Télécharger mon CV
           </button>
         </div>

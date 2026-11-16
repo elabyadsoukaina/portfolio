@@ -1,5 +1,4 @@
 import { FileDown, FileText, Loader2 } from 'lucide-react';
-import { profile } from '@/data/portfolio';
 import SectionHeading from '@/components/SectionHeading';
 import useCvDownload from '@/hooks/useCvDownload';
 
@@ -34,12 +33,6 @@ export default function CvSection() {
             {error && <p className="text-xs text-red-400">{error}</p>}
           </div>
         </div>
-
-        <iframe
-          src={`${profile.cvUrl}#view=FitH`}
-          title="Aperçu du CV"
-          className="h-[80vh] min-h-[480px] w-full bg-slate-800"
-        />
       </div>
     </section>
   );
