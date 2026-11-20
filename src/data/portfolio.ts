@@ -14,7 +14,7 @@ export const profile = {
 export const contacts = {
   email: 'soukainaelabayd@gmail.com',
   github: 'https://github.com/elabyadsoukaina',
-  linkedin: 'https://www.linkedin.com/in/soukaina-e-247441381',
+  linkedin: 'https://www.linkedin.com/in/soukaina-elabyad',
 };
 
 export type Project = {
